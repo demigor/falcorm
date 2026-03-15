@@ -1,0 +1,37 @@
+<Project>
+  <!-- Package versions below refer to packages from NuGet.org (https://api.nuget.org). -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="BenchmarkDotNet" Version="0.15.8" />
+    <PackageVersion Include="Dapper" Version="2.1.72" />
+    <PackageVersion Include="Dapper.AOT" Version="1.0.48" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="5.3.0-2.final" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.Common" Version="5.3.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="5.3.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="5.3.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.Scripting.Common" Version="5.3.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.VisualBasic" Version="5.3.0-2.final" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.1.4" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.4" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Logging" Version="10.0.4" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="10.0.4" />
+    <PackageVersion Include="Npgsql" Version="10.0.2" />
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
+    <PackageVersion Include="System.Data.SqlClient" Version="4.9.1" />
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.16.0" />
+    <PackageVersion Include="TUnit" Version="1.19.57" />
+    <!-- Aspire (AppHost) — 13.1.2 latest stable -->
+    <PackageVersion Include="Aspire.AppHost.Sdk" Version="13.1.2" />
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="13.1.2" />
+    <PackageVersion Include="Aspire.Hosting" Version="13.1.2" />
+    <PackageVersion Include="Aspire.Hosting.SqlServer" Version="13.1.2" />
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="13.1.2" />
+  </ItemGroup>
+</Project>
