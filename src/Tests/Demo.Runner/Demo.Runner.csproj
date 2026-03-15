@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Istarion.Falcorm</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo\Demo.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Istarion.Falcorm" />
+  </ItemGroup>
+
+</Project>
