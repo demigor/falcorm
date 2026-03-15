@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <PackageVersion>1.0.0-rc.1</PackageVersion>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <Deterministic>true</Deterministic>
+    <Authors>Lex Lavnikov</Authors>
+    <Copyright>Copyright © 2026 Istarion Software Pty Ltd</Copyright>
+    <Product>Istarion.Falcorm</Product>
+    <!--<EnableTrimAnalyzer>true</EnableTrimAnalyzer>-->
+  </PropertyGroup>
+</Project>

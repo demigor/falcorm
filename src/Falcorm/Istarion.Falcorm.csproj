@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework></TargetFramework>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <Deterministic>true</Deterministic>
+    <PackageId>Istarion.Falcorm</PackageId>
+    
+    <PackageTags>orm;database;sql;micro-orm;source-generator;batch;postgresql;sqlserver</PackageTags>
+    <RepositoryUrl>https://github.com/demigor/falcorm</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <Description>AOT-first, minimalistic ORM for high-performance .net 10+ apps (MSSQL/Postgres)</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Falcorm</Title>
+    <Company>Istarion Software Pty Ltd</Company>
+    <PackageProjectUrl>https://github.com/demigor/falcorm</PackageProjectUrl>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Generators\Istarion.Generators.csproj"
+      ReferenceOutputAssembly="false" OutputItemType="Analyzer" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Generators\bin\Release\netstandard2.0\Istarion.Generators.dll" Pack="true"
+      PackagePath="analyzers\dotnet\cs\" Visible="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="True" PackagePath="\" />
+    <None Include="Istarion.Falcorm.props" Pack="True" PackagePath="build\" Visible="false" />
+  </ItemGroup>
+
+</Project>
