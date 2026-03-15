@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/Benchmarks/">
+    <Project Path="Benchmarks/DataRead/DataReadBenchmarks.csproj" />
+  </Folder>
+  <Folder Name="/Falcorm/">
+    <Project Path="Falcorm/Istarion.Falcorm.csproj" />
+    <Project Path="Generators/Istarion.Generators.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="../README.md" />
+    <File Path="build.bat" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Demo.Runner/Demo.Runner.csproj" />
+    <Project Path="Tests/Demo/Demo.Entities.csproj" />
+    <Project Path="Tests/Falcorm.Tests/Falcorm.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Tests/Integration/">
+    <Project Path="Tests/Integration/Host/Falcorm.TestHost.csproj" />
+    <Project Path="Tests/Integration/Test/Falcorm.Test.csproj" />
+  </Folder>
+</Solution>

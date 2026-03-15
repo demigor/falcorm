@@ -1,0 +1,20 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.2">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AppHost</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test\Falcorm.Test.csproj" />
+  </ItemGroup>
+
+</Project>
